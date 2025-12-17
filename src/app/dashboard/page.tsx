@@ -1,3 +1,4 @@
+// src/app/(dashboard)/page.tsx
 'use client';
 
 import React from 'react';
@@ -39,7 +40,6 @@ const TransactionsTable: React.FC = () => (
     </div>
 );
 
-// Component con: Hiển thị thống kê và biểu đồ
 const DashboardContent: React.FC = () => (
     <main className="flex-1 overflow-y-auto p-6">
         {/* Stats */}
@@ -67,7 +67,7 @@ const DashboardContent: React.FC = () => (
                 <p className="text-lg font-semibold text-white">Spending Trends</p>
                 <p className="text-sm text-gray-400">Last 6 Months</p>
                 <div className="mt-4 flex min-h-[250px] flex-1 flex-col gap-8 py-4">
-                    
+
                     <svg fill="none" height="100%" preserveaspectratio="none" viewbox="-3 0 478 150" width="100%" xmlns="http://www.w3.org/2000/svg">
                         <path d="M0 109C18.1538 109 18.1538 21 36.3077 21C54.4615 21 54.4615 41 72.6154 41C90.7692 41 90.7692 93 108.923 93C127.077 93 127.077 33 145.231 33C163.385 33 163.385 101 181.538 101C199.692 101 199.692 61 217.846 61C236 61 236 45 254.154 45C272.308 45 272.308 121 290.462 121C308.615 121 308.615 149 326.769 149C344.923 149 344.923 1 363.077 1C381.231 1 381.231 81 399.385 81C417.538 81 417.538 129 435.692 129C453.846 129 453.846 25 472 25V149H326.769H0V109Z" fill="url(#paint0_linear_chart)"></path>
                         <path d="M0 109C18.1538 109 18.1538 21 36.3077 21C54.4615 21 54.4615 41 72.6154 41C90.7692 41 90.7692 93 108.923 93C127.077 93 127.077 33 145.231 33C163.385 33 163.385 101 181.538 101C199.692 101 199.692 61 217.846 61C236 61 236 45 254.154 45C272.308 45 272.308 121 290.462 121C308.615 121 308.615 149 326.769 149C344.923 149 344.923 1 363.077 1C381.231 1 381.231 81 399.385 81C417.538 81 417.538 129 435.692 129C453.846 129 453.846 25 472 25" stroke="#1152d4" stroke-linecap="round" stroke-width="3"></path>
@@ -95,7 +95,6 @@ const DashboardContent: React.FC = () => (
         <TransactionsTable />
     </main>
 );
-
 
 const DashboardPage: React.FC = () => {
     return (
