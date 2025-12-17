@@ -69,7 +69,7 @@ const RegisterForm: React.FC<{ onSwitchTab: (tab: 'login') => void }> = ({ onSwi
                     />
                 </label>
 
-                {/* Password Input (Đã Fix Wrapper + Toggle) */}
+                {/* Password Input */}
                 <label className="flex flex-col flex-1">
                     <p className="text-gray-900 dark:text-white text-base font-medium leading-normal pb-2">Password</p>
 
@@ -116,7 +116,7 @@ const RegisterForm: React.FC<{ onSwitchTab: (tab: 'login') => void }> = ({ onSwi
                     hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary
                     focus:ring-offset-background-light dark:focus:ring-offset-background-dark transition-colors"
                 >
-                    <span className="truncate">Sign Up</span>
+                    <span className="truncate py-1">Sign Up</span>
                 </button>
 
                 <p className="text-center text-sm text-gray-600 dark:text-[#92a4c9]">
