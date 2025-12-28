@@ -4,6 +4,8 @@ This repository contains a **Next.js** application bootstrapped with [`create-ne
 
 ---
 
+<img width="11112" height="6350" alt="diagram-horizon" src="https://github.com/user-attachments/assets/395b79bc-be6a-4e25-916f-cc9616e76a90" />
+
 ## Getting Started
 
 Start the development server using your preferred package manager:
